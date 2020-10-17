@@ -4,17 +4,24 @@ import time
 from curses.textpad import Textbox, rectangle
 from random import choice
 
-from pyfiglet import Figlet
+from asciimatics.effects import RandomNoise
+from asciimatics.renderers import SpeechBubble, Rainbow
+from asciimatics.scene import Scene
+from asciimatics.screen import Screen
 
 from decypher import DECRYPT
 from encoder import ENCRYPT
 
 os.system('cls||clear')
-custom_fig = Figlet(font='basic')
-x = custom_fig.renderText('\n'
-                          'D - CRYPT0R')
-print(x)
-time.sleep(3)
+
+
+def demo(screen):
+    render = Rainbow(screen, SpeechBubble('D - C R Y P T O R'))
+    effects = [RandomNoise(screen, signal=render)]
+    screen.play([Scene(effects, 330)], stop_on_resize=True, repeat=False)
+
+
+Screen.wrapper(demo)
 
 
 class MenuDisplay:
@@ -253,6 +260,6 @@ class MenuDisplay:
 
 
 if __name__ == "__main__":
-    menu = ['I want to encrypt a message.', 'I have already encrypted, just decipher!', 'Leave?']
+    menu = ['I want to encrypt a message.', 'I have already encrypted, just decipher!', 'leave?']
 
     MenuDisplay(menu)
