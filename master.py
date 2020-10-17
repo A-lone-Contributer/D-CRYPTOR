@@ -18,7 +18,7 @@ os.system('cls||clear')
 def demo(screen):
     render = Rainbow(screen, SpeechBubble('D - C R Y P T O R'))
     effects = [RandomNoise(screen, signal=render)]
-    screen.play([Scene(effects, 330)], stop_on_resize=True, repeat=False)
+    screen.play([Scene(effects, 280)], stop_on_resize=True, repeat=False)
 
 
 Screen.wrapper(demo)
@@ -42,7 +42,7 @@ class MenuDisplay:
         curses.init_pair(1, curses.COLOR_BLACK, curses.COLOR_WHITE)
         curses.init_pair(2, curses.COLOR_GREEN, curses.COLOR_BLACK)
         curses.init_pair(3, curses.COLOR_YELLOW, curses.COLOR_BLUE)
-        curses.init_pair(4, curses.COLOR_BLACK, curses.COLOR_MAGENTA)
+        curses.init_pair(4, curses.COLOR_BLACK, curses.COLOR_YELLOW)
         curses.init_pair(5, curses.COLOR_BLACK, curses.COLOR_CYAN)
 
         # set screen object as class property
@@ -62,7 +62,7 @@ class MenuDisplay:
         random_splashes = ['DECIPHERING... | PLEASE STANDBY!',
                            '>>>APPLYING MAGIC SPELLS<<<',
                            'GREAT THINGS TAKE TIME, PLEASE WAIT!',
-                           'THESE SPELLS IS BACKED BY GENETIC ALGORITHM!!']
+                           'THESE SPELLS ARE BACKED BY GENETIC ALGORITHM!!']
 
         while 1:
 
