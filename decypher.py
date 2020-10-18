@@ -115,7 +115,7 @@ def DECRYPT(encoded_message):
     print("Creating DNA Pool...")
     # this is our initialization point
     dna_pool = []
-    for _ in range(525):
+    for _ in range(420):
         dna = list(string.ascii_lowercase)
         random.shuffle(dna)
         dna_pool.append(dna)
@@ -156,7 +156,7 @@ def DECRYPT(encoded_message):
         # keep the best 25 dna
         # also turn them back into list of single chars
         sorted_dna = sorted(dna2score.items(), key=lambda x: x[1], reverse=True)
-        dna_pool = [list(k) for k, v in sorted_dna[:25]]
+        dna_pool = [list(k) for k, v in sorted_dna[:20]]
 
         if i % 200 == 0:
             print("iter:", i, "score:", scores[i], "best so far:", best_score)
