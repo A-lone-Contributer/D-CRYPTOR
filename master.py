@@ -11,6 +11,7 @@ from asciimatics.screen import Screen
 
 from decypher import DECRYPT
 from encoder import ENCRYPT
+from truecasing import truecasing_by_stats
 
 os.system('cls||clear')
 
@@ -93,6 +94,7 @@ class MenuDisplay:
                         self.print_center("No encoded text available to decode!")
                         break
 
+                    message = truecasing_by_stats(message)
                     with open('decoded_text.txt', 'w') as file:
                         file.write(message)
 
@@ -109,7 +111,7 @@ class MenuDisplay:
                         except:
                             pass
 
-                    time.sleep(3)
+                    time.sleep(10)
                     self.stdscr.getch()
 
                 else:
