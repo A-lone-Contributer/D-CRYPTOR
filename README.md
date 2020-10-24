@@ -96,7 +96,7 @@ git clone https://github.com/A-lone-Contributer/D-CRYPTOR.git
 pip install -r requirements.txt
 ```
 
-3. Download <code>distributions.obj</code> file which is a dependency of <code>truecasing.py</code> using [this](https://github.com/nreimers/truecaser/releases/download/v1.0/english_distributions.obj.zip) link.
+3. Download <code>distributions.obj</code> file which is a dependency of <code>truecasing.py</code> using [this](https://github.com/nreimers/truecaser/releases/download/v1.0/english_distributions.obj.zip) link. Extract the downloaded file and place it in the script directory.
 
 <hr>
 
