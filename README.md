@@ -108,13 +108,14 @@ pip install -r requirements.txt
 ```sh
 python master.py
 ```
-**NOTE**: If <code>python master.py</code> does not work, try using <code>python3 master.py</code> instead.
+NOTE: If <code>python master.py</code> does not work, try using <code>python3 master.py</code> instead.
 
 2. A intro splash screen would be displayed that looks something like this:
 
+> NOTE: You can press <code>Enter</code> to skip the animation screen.
+
 ![Product Splash][product-splash]
 
-> **NOTE: ** You can press <code>Enter</code> to skip the animation screen.
 
 3. Now, you will be directed to a menu. Choose the first option (if not done before)
 
@@ -123,9 +124,9 @@ python master.py
 4. After selecting the first option, you will be given a text box where you can write your original message which you want to
 encode and decode. You can either type of paste the copied text.
 
-![Encyption Input][encryption-input]
+> NOTE: Follow prompts written on the top of text field.
 
-> **NOTE: ** Follow prompts written on the top of text field.
+![Encyption Input][encryption-input]
 
 5. Press <code>CTRL+G</code> to execute and obtain the encrypted message. This message is also saved in a text file named <code>encoded_text.txt</code>.
 After encryption, the cipher will look something like this
@@ -138,9 +139,11 @@ After encryption, the cipher will look something like this
 
 7. Final decoded text will be displayed after sometime. 
 
+> NOTE: Running time of the algorithm depends on PC Specs and the length of the plain text being deciphered.
+
+
 ![Decryption Output][decryption-output]
 
-> **NOTE: ** Running time of the algorithm depends on PC Specs and the length of the plain text being deciphered.
 
 <hr>
 
