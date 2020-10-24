@@ -114,7 +114,7 @@ python master.py
 
 ![Product Splash][product-splash]
 
-You can press <code>Enter</code> to skip the animation screen.
+> **NOTE: ** You can press <code>Enter</code> to skip the animation screen.
 
 3. Now, you will be directed to a menu. Choose the first option (if not done before)
 
@@ -125,7 +125,7 @@ encode and decode. You can either type of paste the copied text.
 
 ![Encyption Input][encryption-input]
 
-**NOTE:** Follow prompts written on the top of text field.
+> **NOTE: ** Follow prompts written on the top of text field.
 
 5. Press <code>CTRL+G</code> to execute and obtain the encrypted message. This message is also saved in a text file named <code>encoded_text.txt</code>.
 After encryption, the cipher will look something like this
@@ -140,7 +140,7 @@ After encryption, the cipher will look something like this
 
 ![Decryption Output][decryption-output]
 
-**NOTE:** Running time of the algorithm depends on PC Specs and the length of the plain text being deciphered.
+> **NOTE: ** Running time of the algorithm depends on PC Specs and the length of the plain text being deciphered.
 
 <hr>
 
