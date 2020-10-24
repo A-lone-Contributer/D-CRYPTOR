@@ -8,7 +8,7 @@
 <hr>
 <p>
   <p align="center">
-    A command line tool for cipher decryption using Genetic Algorithms and Natural Language Processing (NLP).
+    A Command line tool for cipher decryption using Genetic Algorithms and Natural Language Processing (NLP).
     <br />
     <br />
     <a href="https://github.com/A-lone-Contributer/D-CRYPTOR/issues">Report Bug</a>
