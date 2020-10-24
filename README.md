@@ -40,24 +40,24 @@ Ever thought how Natural language processing can be used for decryption of a cip
 > **Key Idea :** After learning the probability likelihoods of normal english text, we can mutate the cipher (swapping) to minimize the difference of
 probability likelihood to plain english text. This mutation would be closed to the original mapping thus deciphered text.
 
-High level Overview :
-* A encoded text is generated using a **random character-character mapping** (source : <code>encoder.py</code>)
-* Now, for the decoding purpose following steps are performed:
-    * A **Markov Matrix** of bi-grams probabilities is generated from the training data <code>train.txt</code>.
-    * We extend this to generate probabilities for the whole sequence and normalise to range (0,1).
-    * Now, generate random pool of DNA (a list of lowercase ascii characters) and shuffle them.
-    * To mutate, we take few candidates from the pool and generate probability score till number of iterations or out best score doesn't improve.
-* Now, we use this best likelihood score mapping and apply to cipher text and obtain deciphered sentence.
-* To make decryption process interesting, script uses <code>truecasing.py</code> which tries to reterive the original casing of decyphered text without knowing of it in the first place.
+**High level Overview :**
+1. A encoded text is generated using a **random character-character mapping** (source : <code>encoder.py</code>)
+2. Now, for the decoding purpose following steps are performed:
+    a. A **Markov Matrix** of bi-grams probabilities is generated from the training data <code>train.txt</code>.
+    b. We extend this to generate probabilities for the whole sequence and normalise to range (0,1).
+    c. Now, generate random pool of **DNA** (a list of lowercase ascii characters) and shuffle them.
+    d. To mutate, we take few candidates from the pool and generate probability score till number of iterations or out best score doesn't improve.
+3. Now, we use this best likelihood score character mapping and apply to cipher text and obtain deciphered sentence.
+4. To make decryption process interesting, script uses <code>truecasing.py</code> which tries to reterive the original casing of decyphered text without knowing of it in the first place.
 
 **LIMITATIONS** 
 
-* D-CRYPTOR cannot decrypt sentences with very few words as a 26 character mapping is harder to learn from it.
-* Being a randomized algorithm, it might be possible that you get different result on successive runs.
+1. D-CRYPTOR cannot decrypt sentences with very few words as a 26 character mapping is harder to learn from it.
+2. Being a randomized algorithm, it might be possible that you get different result on successive runs.
 
 <hr>
 
-### Built With
+### Built Using
 * [Python](https://www.python.org/)
 * [NLTK](https://www.nltk.org/)
 * [curses](https://docs.python.org/3/library/curses.html)
@@ -71,17 +71,15 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-1. Python
+1. **Python**
 
 To check, if python is installed, type <code>python</code> in command line. If this opens <code>python3</code> interpreter then you are good to go. 
 
 else, <code>python3</code> follow [this](https://www.python.org/downloads/) link to download the latest version.
 
-2. Git
+2. **Git**
 
 You can download the latest version of <code>git</code> [here](https://git-scm.com/downloads).
-
-<hr>
 
 ### Installation
 
