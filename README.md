@@ -96,7 +96,7 @@ git clone https://github.com/A-lone-Contributer/D-CRYPTOR.git
 pip install -r requirements.txt
 ```
 
-3. Download distributions.obj file for running <code>truecasing.py</code> using [this](https://github.com/nreimers/truecaser/releases/download/v1.0/english_distributions.obj.zip) link.
+3. Download <code>distributions.obj</code> file which is a dependency of <code>truecasing.py</code> using [this](https://github.com/nreimers/truecaser/releases/download/v1.0/english_distributions.obj.zip) link.
 
 <hr>
 
@@ -150,7 +150,7 @@ After encryption, the cipher will look something like this
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/A-lone-Contributer/D-CRYPTOR/issues) for a list of proposed features (and known issues).
 
 <hr>
 
