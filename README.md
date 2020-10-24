@@ -26,7 +26,6 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Screenshots](#screenshots)
 
 <hr>
 
@@ -169,8 +168,6 @@ Contributions are what make the open source community such an amazing place to b
 ## License
 
 Distributed under the Apache-2.0 License. See `LICENSE` for more information.
-
-<hr>
 
 <!-- CONTACT -->
 ## Contact
