@@ -8,10 +8,10 @@
 
 <p>
   <p align="center">
-    A command line tool for cipher decryption tool using genetic algrithms and Natural Language Processsing! 
+    A command line tool for cipher decryption tool using genetic algorithms and Natural Language Processing! 
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="#">View Demo</a>
     ·
     <a href="https://github.com/A-lone-Contributer/D-CRYPTOR/issues">Report Bug</a>
     </p>
