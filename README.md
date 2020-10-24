@@ -176,7 +176,7 @@ Distributed under the Apache-2.0 License. See `LICENSE` for more information.
 
 Nishkarsh Tripathi : nishkarsh78@gmail.com
 
-Project Link: [D-CRYPTOR](https://github.com/A-lone-Contributer/D-CRYPTOR)
+Project Link : [D-CRYPTOR](https://github.com/A-lone-Contributer/D-CRYPTOR)
 
 
 
