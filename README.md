@@ -149,8 +149,6 @@ After encryption, the cipher will look something like this
 
 See the [open issues](https://github.com/A-lone-Contributer/D-CRYPTOR/issues) for a list of proposed features (and known issues).
 
-<hr>
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -162,7 +160,6 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<hr>
 
 <!-- LICENSE -->
 ## License
