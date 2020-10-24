@@ -43,10 +43,10 @@ probability likelihood to plain english text. This mutation would be closed to t
 **High level Overview :**
 1. A encoded text is generated using a **random character-character mapping** (source : <code>encoder.py</code>)
 2. Now, for the decoding purpose following steps are performed:
-    a. A **Markov Matrix** of bi-grams probabilities is generated from the training data <code>train.txt</code>.
-    b. We extend this to generate probabilities for the whole sequence and normalise to range (0,1).
-    c. Now, generate random pool of **DNA** (a list of lowercase ascii characters) and shuffle them.
-    d. To mutate, we take few candidates from the pool and generate probability score till number of iterations or out best score doesn't improve.
+    * A **Markov Matrix** of bi-grams probabilities is generated from the training data <code>train.txt</code>.
+    * We extend this to generate probabilities for the whole sequence and normalise to range (0,1).
+    * Now, generate random pool of **DNA** (a list of lowercase ascii characters) and shuffle them.
+    * To mutate, we take few candidates from the pool and generate probability score till number of iterations or out best score doesn't improve.
 3. Now, we use this best likelihood score character mapping and apply to cipher text and obtain deciphered sentence.
 4. To make decryption process interesting, script uses <code>truecasing.py</code> which tries to reterive the original casing of decyphered text without knowing of it in the first place.
 
