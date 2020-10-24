@@ -5,19 +5,17 @@
 [![MIT License][license-shield]][license-url]
 ![Product Name Screen Shot][product-screenshot]
 
-
+<hr>
 <p>
   <p align="center">
     A command line tool for cipher decryption tool using genetic algorithms and Natural Language Processing! 
     <br />
     <br />
-    <a href="#">View Demo</a>
-    ·
     <a href="https://github.com/A-lone-Contributer/D-CRYPTOR/issues">Report Bug</a>
     </p>
 </p>
 
-
+<hr>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -30,7 +28,7 @@
 * [Usage](#usage)
 * [Screenshots](#screenshots)
 
-
+<hr>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -57,13 +55,14 @@ High level Overview :
 * D-CRYPTOR cannot decrypt sentences with very few words as a 26 character mapping is harder to learn from it.
 * Being a randomized algorithm, it might be possible that you get different result on successive runs.
 
+<hr>
 
 ### Built With
 * [Python](https://www.python.org/)
 * [NLTK](https://www.nltk.org/)
 * [curses](https://docs.python.org/3/library/curses.html)
 
-
+<hr>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -82,6 +81,8 @@ else, <code>python3</code> follow [this](https://www.python.org/downloads/) link
 
 You can download the latest version of <code>git</code> [here](https://git-scm.com/downloads).
 
+<hr>
+
 ### Installation
 
 1. Clone the repo
@@ -96,6 +97,8 @@ pip install -r requirements.txt
 ```
 
 3. Download distributions.obj file for running <code>truecasing.py</code> using [this](https://github.com/nreimers/truecaser/releases/download/v1.0/english_distributions.obj.zip) link.
+
+<hr>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -139,13 +142,14 @@ After encryption, the cipher will look something like this
 
 **NOTE:** Running time of the algorithm depends on PC Specs and the length of the plain text being deciphered.
 
+<hr>
 
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
-
+<hr>
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -158,14 +162,14 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
+<hr>
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the Apache-2.0 License. See `LICENSE` for more information.
 
-
+<hr>
 
 <!-- CONTACT -->
 ## Contact
