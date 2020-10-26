@@ -53,6 +53,7 @@ probability likelihood to plain english text. This mutation would be closed to t
 
 1. D-CRYPTOR cannot decrypt sentences with very few words as a 26 character mapping is harder to learn from it.
 2. Being a randomized algorithm, it might be possible that you get different result on successive runs.
+3. Does not decode punctuations.
 
 <hr>
 
