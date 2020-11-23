@@ -1,8 +1,8 @@
 <!-- PROJECT SHIELDS -->
-[![Stargazers][stars-shield]][stars-url]
-[![Forks][forks-shield]][forks-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<code>[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)</code>
+<code>[![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)</code>
+<code><img src="http://ForTheBadge.com/images/badges/made-with-python.svg"></code>
+
 ![Product Name Screen Shot][product-screenshot]
 
 <hr>
@@ -34,7 +34,7 @@
 
 Ever thought how Natural language processing can be used for decryption of a cipher text? Well, here is the answer!
 
-**D-CRYPTOR** is capable of encrypting and decrypting cipher text using Genetic Algorithm and Natural language processing (NLP).
+**D-CRYPTOR** is capable of encrypting and decrypting cipher text using **Genetic Algorithm** and **Natural language processing (NLP).**
 
 > **Key Idea :** After learning the probability likelihoods of normal english text, we can mutate the cipher (swapping) to minimize the difference of
 probability likelihood to plain english text. This mutation would be closed to the original mapping thus deciphered text.
