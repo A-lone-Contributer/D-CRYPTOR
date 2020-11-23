@@ -8,7 +8,7 @@
 <hr>
 <p>
   <p align="center">
-    A Command line tool for cipher decryption using Genetic Algorithms and Natural Language Processing (NLP).
+    A Command line tool for Cipher Decryption using Genetic Algorithms and Natural Language Processing (NLP).
     <br />
     <br />
     <a href="https://github.com/A-lone-Contributer/D-CRYPTOR/issues">Report Bug</a>
@@ -34,7 +34,7 @@
 
 Ever thought how Natural language processing can be used for decryption of a cipher text? Well, here is the answer!
 
-**D-CRYPTOR** is capable of Decryption and Encryption cipher text using Genetic Algorithm and Natural language processing (NLP).
+**D-CRYPTOR** is capable of encrypting and decrypting cipher text using Genetic Algorithm and Natural language processing (NLP).
 
 > **Key Idea :** After learning the probability likelihoods of normal english text, we can mutate the cipher (swapping) to minimize the difference of
 probability likelihood to plain english text. This mutation would be closed to the original mapping thus deciphered text.
